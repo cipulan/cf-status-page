@@ -6,7 +6,7 @@ compatibility_date = "2023-04-19"
 compatibility_flags = [ "nodejs_compat" ]
 
 [triggers]
-crons = ["*/30 * * * *"]
+crons = ["*/2 * * * *"]
 
 [site]
 bucket = ".svelte-kit/output/"
